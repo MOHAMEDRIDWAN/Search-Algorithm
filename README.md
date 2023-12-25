@@ -19,11 +19,11 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i)	#Use a linear search method to match the item in a list.
 ```
-''' 
+
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by:MOHAMED RIDWAN A
 RegisterNumber: 23003133
-'''
+
 def binarySearchIter(array, k, low, high):
     # Write your code here to find the middle value and check if the desired item is above or below the middle value
     while low<=high:
@@ -56,11 +56,11 @@ else:
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-''' 
+ 
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by:MOHAMED RIDWAN A
 RegisterNumber: 23003133
-'''
+
 def binarySearchIter(array, k, low, high):
     # Write your code here to find the middle value and check if the desired item is above or below the middle value
     while low<=high:
@@ -88,9 +88,10 @@ if(result==-1):
 else:
     print(array)
     print("Element found at index: ",result)
+```
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
-''' 
+
 Program to find the element in a list using Binary Search (recursive Method).
 Developed by: MOHAMED RIDWAN A
 RegisterNumber: 23003133
